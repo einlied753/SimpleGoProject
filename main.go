@@ -15,7 +15,7 @@ func main() {
 
 		mode = !mode
 
-		for j := 0; j < number; j++ {
+		for j := 0; j < number/2; j++ {
 
 			if mode {
 				fmt.Printf("# ")
