@@ -13,14 +13,14 @@ func main() {
 
 	for i := 0; i < number; i++ {
 
-		mode = !mode
+		for j := 0; j < number; j++ {
 
-		for j := 0; j < number/2; j++ {
+			mode = !mode
 
 			if mode {
-				fmt.Printf("# ")
+				fmt.Printf("#")
 			} else {
-				fmt.Printf(" #")
+				fmt.Printf(" ")
 			}
 		}
 		fmt.Printf("\n")
